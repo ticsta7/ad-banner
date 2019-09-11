@@ -1,0 +1,15 @@
+/* #v6_pl_rightmod_attfeed
+{
+	display: none;
+}
+
+[id^="v6_pl_rightmod"]
+{
+	display: none;
+} */
+
+
+.WB_main_r,.send_weibo .key,.WB_global_nav .ficon_send
+{
+    display: none !important;
+}
