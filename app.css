@@ -8,8 +8,27 @@
 	display: none;
 } */
 
+/*
+先后顺序：
+页面右侧整个竖排，右上角发送微博钮
+搜索栏内  点击后触发的下拉菜单
+微博发布框右上角的话题
+*/
 
-.WB_main_r,.send_weibo .key,.WB_global_nav .ficon_send
+.WB_main_r,.WB_global_nav .ficon_send,.gn_topmenulist,.send_weibo .key
 {
     display: none !important;
+}
+
+/* 搜索栏内 默认内容 */
+
+.gn_search_v2 .placeholder
+{
+	display: none !important;	
+} 
+
+/*透明度 */
+
+.S_bg2, blockquote, .W_btn_b, .W_input, .SW_fun_bg {
+    background-color: rgba(255, 255, 255,0.65) !important;
 }
