@@ -27,7 +27,7 @@
             
              "matches": ["http://weibo.com/*","http://www.weibo.com/*","https://weibo.com/*","https://www.weibo.com/*"],
              "css": ["app.css"],
-             "js": ["jquery-3.2.1.min.js","app.js"]
+             "js": ["jquery-3.4.1.min.js","app.js"]
              
         }
     ]

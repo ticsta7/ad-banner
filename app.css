@@ -8,14 +8,18 @@
 	display: none;
 } */
 
-/*
+/* 备忘： node-type
+用： [node-type='xxx'] */
+
+/* 删删删
 先后顺序：
 页面右侧整个竖排，右上角发送微博钮
 搜索栏内  点击后触发的下拉菜单
 微博发布框右上角的话题
+顶部导航栏 右侧“首页视频发现游戏”
 */
 
-.WB_main_r,.WB_global_nav .ficon_send,.gn_topmenulist,.send_weibo .key
+.WB_main_r,.WB_global_nav .ficon_send,.gn_topmenulist,.send_weibo .key,.gn_nav_list li:not(:last-child)
 {
     display: none !important;
 }
@@ -27,8 +31,25 @@
 	display: none !important;	
 } 
 
-/*透明度 */
+/*feed流透明度 todo:转发的微博的透明度 */
 
 .S_bg2, blockquote, .W_btn_b, .W_input, .SW_fun_bg {
     background-color: rgba(255, 255, 255,0.65) !important;
+}
+
+/* 微博发布栏上方字体居中 TODO 应该改为百分比*/
+.send_weibo .title 
+{
+    padding-left: 265px !important;
+}
+/* 搜索框居中 TODO 应该改为百分比  */
+.WB_global_nav_v2 .gn_search_v2
+ {
+    margin-left: 265px !important;
+}
+
+/* 主体部分拉伸 */
+.B_discover .WB_frame_c, .WB_main_c 
+{
+	width: 750px !important;
 }
