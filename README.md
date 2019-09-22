@@ -22,6 +22,10 @@
 5. 主体部分横向拉伸
 6. 改微博发布栏默认内容+上方默认文字
 
+前后效果对比
+
+![alt 图片](before.png "before")
+![alt 图片](after.png "after")
 * * *
 
 借用了 LazyExtKit Chrome 插件新手包。
